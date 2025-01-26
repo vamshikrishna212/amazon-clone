@@ -1,0 +1,235 @@
+header {
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-amazon {
+    height: 35px;
+    width: 110px;
+    margin: 0px 20px 0px 0px;
+    background-image: url("images\\logo.png");
+
+}
+
+.search {
+    display: flex;
+    width: 872px;
+}
+
+.search-input {
+    width: 836px;
+    height: 31px;
+    font-size: 1rem;
+    margin-right: 0;
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.go-btn {
+    width: 36px;
+    height: 33px;
+    margin-left: 0;
+    font-weight: bold;
+    background-color: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.go-btn:hover {
+    background-color: #fca635;
+}
+
+.nav-right {
+    color: #ffffff;
+    font-size: 14px;
+    width: 170;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-right a,
+p {
+    margin: 5px;
+}
+
+.pipe {
+    color: #5f6c78;
+}
+
+.main-img {
+
+    height: 230px;
+
+    background-image: url('images\\main.jpg');
+    background-size: cover;
+
+
+
+}
+
+.main {
+    background-color: #e3e6e6;
+
+}
+
+.p-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.p-link:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.boxes {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #ffffff;
+    color: black;
+    height: 420px;
+    width: 260px;
+    margin: 10px;
+
+    padding: 15px;
+
+}
+
+.p-b2 {
+    font-size: 13px;
+}
+
+.box2-img {
+    height: 115px;
+    width: 120px;
+    margin: 5px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.box21 {
+    background-image: url("images\\womensfasion.jpg");
+}
+
+.box22 {
+    background-image: url("images\\mensfation.jpg");
+}
+
+.box23 {
+    background-image: url("images\\beuty.jpg");
+}
+
+.box24 {
+    background-image: url("images\\home.jpg");
+}
+
+
+
+.box-img {
+    height: 300px;
+    width: 260px;
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box1 {
+    background-image: url("images\\primevideo.jpg");
+}
+
+
+
+.box3 {
+    background-image: url('images\\bestoutlet.jpg');
+}
+
+.box4 {
+    background-image: url('images\\amazontoys.jpg');
+}
+
+.box5 {
+    background-image: url('images\\smallspacesol.jpg');
+}
+
+.box6 {
+    background-image: url('images\\amazondevices.jpg');
+}
+
+.box7 {
+    background-image: url('images\\liveplants.jpg');
+}
+
+.box8 {
+    background-image: url('images\\elevatedtshirts.jpg');
+}
+
+
+
+.box-h2 {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.caption {
+    color: #007185;
+    text-decoration: none;
+
+    margin-top: 25px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232F3E;
+}
+
+.logo-img {
+    height: 23px;
+    width: 73px;
+    background-image: url("images\\logo.png");
+    background-size: cover;
+}
+
+.logo-div {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-touch {
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 12px;
+    height: 58px;
+    background-color: #131a22;
+}
+
+.copyright {
+    color: #999999;
+
+}
